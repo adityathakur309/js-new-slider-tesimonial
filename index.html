@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="container">
+        <div class=" swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <img src="images/img.avif" alt="">
+                        <h2>alex wender</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam cumque architecto
+                            possimus inventore quod doloremque. Sit ipsa beatae aliquam magnam quos nobis odio, incidunt
+                            magni vel at fugit temporibus?</p>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <img src="images/img.avif" alt="">
+                        <h2>alex wender</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam cumque architecto
+                            possimus inventore quod doloremque. Sit ipsa beatae aliquam magnam quos nobis odio, incidunt
+                            magni vel at fugit temporibus?</p>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <img src="images/img.avif" alt="">
+                        <h2>alex wender</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam cumque architecto
+                            possimus inventore quod doloremque. Sit ipsa beatae aliquam magnam quos nobis odio, incidunt
+                            magni vel at fugit temporibus?</p>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <img src="images/img.avif" alt="">
+                        <h2>alex wender</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam cumque architecto
+                            possimus inventore quod doloremque. Sit ipsa beatae aliquam magnam quos nobis odio, incidunt
+                            magni vel at fugit temporibus?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
